@@ -1,0 +1,63 @@
+{
+  "lastUpdated": "2024-04-01",
+  "note": "Fees are subject to revision at the beginning of each academic year. The figures below are indicative for the academic year 2024–25.",
+  "categories": [
+    {
+      "id": "nursery-ukg",
+      "label": "Nursery – UKG",
+      "annualFee": 42000,
+      "admissionFee": 15000,
+      "registrationFee": 1500,
+      "annualCharges": 8000,
+      "transportMonthly": 2200
+    },
+    {
+      "id": "class-1-5",
+      "label": "Class I – V",
+      "annualFee": 52000,
+      "admissionFee": 20000,
+      "registrationFee": 2000,
+      "annualCharges": 10000,
+      "transportMonthly": 2400
+    },
+    {
+      "id": "class-6-8",
+      "label": "Class VI – VIII",
+      "annualFee": 62000,
+      "admissionFee": 22000,
+      "registrationFee": 2000,
+      "annualCharges": 12000,
+      "transportMonthly": 2600
+    },
+    {
+      "id": "class-9-10",
+      "label": "Class IX – X",
+      "annualFee": 72000,
+      "admissionFee": 25000,
+      "registrationFee": 2500,
+      "annualCharges": 14000,
+      "transportMonthly": 2800
+    },
+    {
+      "id": "class-11-12",
+      "label": "Class XI – XII",
+      "annualFee": 85000,
+      "admissionFee": 30000,
+      "registrationFee": 3000,
+      "annualCharges": 16000,
+      "transportMonthly": 3000
+    }
+  ],
+  "paymentSchedule": [
+    { "term": "First Quarter (April)", "percentage": 25 },
+    { "term": "Second Quarter (July)", "percentage": 25 },
+    { "term": "Third Quarter (October)", "percentage": 25 },
+    { "term": "Fourth Quarter (January)", "percentage": 25 }
+  ],
+  "discounts": [
+    { "type": "Sibling Discount (2nd child)", "value": "10% on tuition fee" },
+    { "type": "Sibling Discount (3rd child onwards)", "value": "15% on tuition fee" },
+    { "type": "Merit Scholarship (≥95% in previous class)", "value": "20% on tuition fee" },
+    { "type": "Staff Ward Concession", "value": "50% on tuition fee" }
+  ]
+}

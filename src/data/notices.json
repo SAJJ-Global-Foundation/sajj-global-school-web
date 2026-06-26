@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "title": "Holiday Notice: Independence Day Celebration",
+    "date": "2024-08-12",
+    "category": "Holiday",
+    "important": true,
+    "body": "This is to inform all students, parents and staff that the school will remain closed on 15th August 2024 on account of Independence Day. The school will host a Flag Hoisting Ceremony on the morning of 15th August at 8:00 AM. Attendance is encouraged for staff and senior students.\n\nClasses will resume normally from 16th August 2024.",
+    "attachments": [
+      { "name": "Independence_Day_Notice.pdf", "size": "245 KB", "url": "#" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Annual Examination Schedule – Classes I to IX",
+    "date": "2024-07-28",
+    "category": "Examination",
+    "important": true,
+    "body": "The Annual Examination for Classes I to IX is scheduled to commence from 15th September 2024. The detailed timetable for each class is attached. Students are advised to collect their Admit Cards from the class teachers by 10th September 2024.\n\nRegular attendance in classes until the examination date is mandatory. Parents are requested to ensure their ward's preparation.",
+    "attachments": [
+      { "name": "Exam_Timetable_2024.pdf", "size": "512 KB", "url": "#" },
+      { "name": "Exam_Instructions.pdf", "size": "180 KB", "url": "#" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Parent-Teacher Meeting – Session 1",
+    "date": "2024-07-20",
+    "category": "Meeting",
+    "important": false,
+    "body": "The first Parent-Teacher Meeting for the academic year 2024–25 is scheduled for 3rd August 2024 (Saturday) from 9:00 AM to 1:00 PM. Parents of all classes from Nursery to Class XII are requested to attend.\n\nThe purpose of this meeting is to discuss mid-term academic progress, address any concerns, and share term calendars. Prior registration via the school mobile app is recommended to ensure a timely slot.",
+    "attachments": []
+  },
+  {
+    "id": 4,
+    "title": "Fee Payment Reminder – July 2024",
+    "date": "2024-07-05",
+    "category": "Finance",
+    "important": false,
+    "body": "This is a gentle reminder that the tuition and ancillary fees for the month of July 2024 are due by 15th July 2024. A late fee of ₹100 per day will be charged after the due date.\n\nFees may be paid via the school's online portal, demand draft, or at the Accounts Office between 9:00 AM and 12:00 PM on weekdays.",
+    "attachments": [
+      { "name": "Fee_Payment_Instructions.pdf", "size": "150 KB", "url": "#" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Sports Day – Dress Code and Schedule",
+    "date": "2024-06-28",
+    "category": "Events",
+    "important": false,
+    "body": "Annual Sports Day is scheduled for 20th July 2024. All students must wear their House colour sports uniform. Gates will open at 7:30 AM. Events begin at 8:15 AM sharp.\n\nParents are cordially invited. Reserved seating will be provided for differently-abled visitors. Kindly carry your school-issued parent ID card for entry.",
+    "attachments": [
+      { "name": "Sports_Day_Schedule.pdf", "size": "320 KB", "url": "#" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Revised School Timings – Summer Schedule",
+    "date": "2024-05-15",
+    "category": "General",
+    "important": true,
+    "body": "In view of the summer season, school timings for Classes Nursery to XII will be revised effective 20th May 2024 until further notice:\n\n• School starts: 7:30 AM\n• School ends: 1:00 PM\n\nBus timings will be adjusted accordingly and communicated separately via the school app. Students are advised to carry adequate water and wear comfortable, light-coloured clothing.",
+    "attachments": []
+  },
+  {
+    "id": 7,
+    "title": "Circular: Use of Mobile Phones on Campus",
+    "date": "2024-04-02",
+    "category": "General",
+    "important": false,
+    "body": "As per school policy, the use of mobile phones by students on campus is strictly prohibited during school hours. Students found with mobile phones will have the device confiscated, and parents will be notified. The device will be returned only to parents.\n\nThe school provides landline access for genuine emergencies. Parents wishing to contact their ward during school hours may do so through the school reception.",
+    "attachments": [
+      { "name": "Mobile_Policy_Circular.pdf", "size": "95 KB", "url": "#" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Admission Notice: Class XI 2025–26",
+    "date": "2024-03-18",
+    "category": "Admissions",
+    "important": true,
+    "body": "Applications for admission to Class XI (Science, Commerce, Arts) for the academic year 2025–26 are invited. Eligibility: Minimum 75% aggregate in Class X board examinations.\n\nLast date for application: 10th May 2025. Admission will be granted based on Class X marks and a counselling interaction. For more details and to submit the application form, please visit the Admissions page on this website or contact the Admissions Office.",
+    "attachments": [
+      { "name": "Class_XI_Application_Form.pdf", "size": "280 KB", "url": "#" }
+    ]
+  }
+]

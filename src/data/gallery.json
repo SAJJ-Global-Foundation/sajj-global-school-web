@@ -1,0 +1,95 @@
+{
+  "albums": [
+    {
+      "id": "science-exhibition-2024",
+      "title": "Science Exhibition 2024",
+      "coverImage": "https://picsum.photos/seed/sci-ex-cover/600/400",
+      "imageCount": 24,
+      "date": "2024-07-15",
+      "category": "Events",
+      "images": [
+        { "id": 1, "src": "https://picsum.photos/seed/sci1/900/600", "alt": "Students presenting solar irrigation model", "caption": "Class X team explains their solar-powered irrigation model" },
+        { "id": 2, "src": "https://picsum.photos/seed/sci2/900/600", "alt": "AI plant detection exhibit", "caption": "AI-based plant disease detection by Class XII" },
+        { "id": 3, "src": "https://picsum.photos/seed/sci3/900/600", "alt": "Chemistry experiment display", "caption": "Spectacular chemistry demonstration by Class IX" },
+        { "id": 4, "src": "https://picsum.photos/seed/sci4/900/600", "alt": "Robotics project showcase", "caption": "Robotics team presents line-following robot" },
+        { "id": 5, "src": "https://picsum.photos/seed/sci5/900/600", "alt": "Prize distribution ceremony", "caption": "Principal Ms. Hussain awards the best project trophy" },
+        { "id": 6, "src": "https://picsum.photos/seed/sci6/900/600", "alt": "Guest judges examining exhibits", "caption": "Industry experts reviewing student innovations" }
+      ]
+    },
+    {
+      "id": "sports-day-2024",
+      "title": "Annual Sports Day 2024",
+      "coverImage": "https://picsum.photos/seed/sports-cover/600/400",
+      "imageCount": 32,
+      "date": "2024-07-20",
+      "category": "Sports",
+      "images": [
+        { "id": 1, "src": "https://picsum.photos/seed/sp1/900/600", "alt": "100m sprint race", "caption": "Arjun Mehta wins gold in 100m sprint" },
+        { "id": 2, "src": "https://picsum.photos/seed/sp2/900/600", "alt": "Girls volleyball team", "caption": "Girls' volleyball team — champions!" },
+        { "id": 3, "src": "https://picsum.photos/seed/sp3/900/600", "alt": "March past by students", "caption": "House march past during opening ceremony" },
+        { "id": 4, "src": "https://picsum.photos/seed/sp4/900/600", "alt": "Long jump competition", "caption": "Exciting long jump competition" },
+        { "id": 5, "src": "https://picsum.photos/seed/sp5/900/600", "alt": "Medal ceremony", "caption": "Overall championship trophy presentation" },
+        { "id": 6, "src": "https://picsum.photos/seed/sp6/900/600", "alt": "Relay race", "caption": "4×100m relay — SGS team in action" }
+      ]
+    },
+    {
+      "id": "cultural-day-2024",
+      "title": "Cultural Harmony Day 2024",
+      "coverImage": "https://picsum.photos/seed/cult-cover/600/400",
+      "imageCount": 48,
+      "date": "2024-03-22",
+      "category": "Cultural",
+      "images": [
+        { "id": 1, "src": "https://picsum.photos/seed/cult1/900/600", "alt": "Classical dance performance", "caption": "Bharatanatyam performance by Class VIII" },
+        { "id": 2, "src": "https://picsum.photos/seed/cult2/900/600", "alt": "Folk music", "caption": "Rajasthani folk music by Class VII" },
+        { "id": 3, "src": "https://picsum.photos/seed/cult3/900/600", "alt": "Drama performance", "caption": "Class XII drama — cultural medley finale" },
+        { "id": 4, "src": "https://picsum.photos/seed/cult4/900/600", "alt": "Art installations", "caption": "Student art installations in the foyer" },
+        { "id": 5, "src": "https://picsum.photos/seed/cult5/900/600", "alt": "Group singing", "caption": "Junior choir performs regional folk songs" },
+        { "id": 6, "src": "https://picsum.photos/seed/cult6/900/600", "alt": "Audience and stage", "caption": "Packed auditorium for the grand finale" }
+      ]
+    },
+    {
+      "id": "campus-life",
+      "title": "Campus Life",
+      "coverImage": "https://picsum.photos/seed/campus-cover/600/400",
+      "imageCount": 60,
+      "date": "2024-01-01",
+      "category": "Campus",
+      "images": [
+        { "id": 1, "src": "https://picsum.photos/seed/camp1/900/600", "alt": "Students in library", "caption": "Our well-stocked central library" },
+        { "id": 2, "src": "https://picsum.photos/seed/camp2/900/600", "alt": "Computer lab", "caption": "The newly inaugurated 60-seat computer lab" },
+        { "id": 3, "src": "https://picsum.photos/seed/camp3/900/600", "alt": "Science lab", "caption": "Students at work in the science laboratory" },
+        { "id": 4, "src": "https://picsum.photos/seed/camp4/900/600", "alt": "Playground", "caption": "Spacious outdoor play area" },
+        { "id": 5, "src": "https://picsum.photos/seed/camp5/900/600", "alt": "Cafeteria", "caption": "Hygienic and nutritious school cafeteria" },
+        { "id": 6, "src": "https://picsum.photos/seed/camp6/900/600", "alt": "Classroom", "caption": "Smart classrooms with interactive displays" }
+      ]
+    },
+    {
+      "id": "graduation-ceremony-2024",
+      "title": "Graduation Ceremony 2024",
+      "coverImage": "https://picsum.photos/seed/grad-cover/600/400",
+      "imageCount": 36,
+      "date": "2024-05-30",
+      "category": "Events",
+      "images": [
+        { "id": 1, "src": "https://picsum.photos/seed/grad1/900/600", "alt": "Graduation procession", "caption": "Class XII graduation procession" },
+        { "id": 2, "src": "https://picsum.photos/seed/grad2/900/600", "alt": "Degree distribution", "caption": "Principal awarding completion certificates" },
+        { "id": 3, "src": "https://picsum.photos/seed/grad3/900/600", "alt": "Topper felicitation", "caption": "State topper Priya Sharma felicitated" },
+        { "id": 4, "src": "https://picsum.photos/seed/grad4/900/600", "alt": "Group photo", "caption": "Class of 2024 group photograph" }
+      ]
+    },
+    {
+      "id": "community-outreach",
+      "title": "Community Outreach 2024",
+      "coverImage": "https://picsum.photos/seed/outreach-cover/600/400",
+      "imageCount": 18,
+      "date": "2024-02-14",
+      "category": "Community",
+      "images": [
+        { "id": 1, "src": "https://picsum.photos/seed/out1/900/600", "alt": "Tree plantation drive", "caption": "Students plant 500 saplings on campus" },
+        { "id": 2, "src": "https://picsum.photos/seed/out2/900/600", "alt": "Teaching underprivileged children", "caption": "SGS students teaching at community centre" },
+        { "id": 3, "src": "https://picsum.photos/seed/out3/900/600", "alt": "Food distribution", "caption": "Foundation food distribution initiative" }
+      ]
+    }
+  ]
+}

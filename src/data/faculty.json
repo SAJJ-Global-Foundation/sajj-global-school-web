@@ -1,0 +1,72 @@
+{
+  "leadership": [
+    {
+      "id": 1,
+      "name": "Mr. Salim Khan",
+      "role": "Chairman",
+      "qualification": "MBA, B.Tech (IIT Delhi)",
+      "photo": "https://picsum.photos/seed/chairman/400/400",
+      "message": "At Sajj Global School, we nurture not just academic excellence but the complete human being — a young person of curiosity, integrity, and compassion. Every child who walks through these gates carries the potential to shape a better world. Our commitment is simply this: to give them every possible tool to do so.",
+      "shortBio": "A visionary leader and the driving force behind the Sajj Global Foundation, Mr. Salim Khan has championed quality education as a fundamental right for two decades."
+    },
+    {
+      "id": 2,
+      "name": "Ms. Nadia Hussain",
+      "role": "Principal",
+      "qualification": "M.Ed, M.A. (English), B.Ed",
+      "photo": "https://picsum.photos/seed/principal/400/400",
+      "message": "Education is the greatest equaliser. At Sajj Global School, we believe every child is gifted — our role is to discover that gift, cultivate it, and send them into the world with confidence, empathy, and a lifelong love for learning. I am proud of every student, every teacher, and every family that makes this community extraordinary.",
+      "shortBio": "With over 22 years in education, Ms. Nadia Hussain has led SGS through its most significant period of growth, driving academic innovation and community engagement."
+    }
+  ],
+  "management": [
+    {
+      "id": 1,
+      "name": "Mr. Salim Khan",
+      "role": "Chairman",
+      "photo": "https://picsum.photos/seed/mgmt1/300/300"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Amara Patel",
+      "role": "Vice Chairperson",
+      "photo": "https://picsum.photos/seed/mgmt2/300/300"
+    },
+    {
+      "id": 3,
+      "name": "Mr. Rajesh Verma",
+      "role": "Secretary",
+      "photo": "https://picsum.photos/seed/mgmt3/300/300"
+    },
+    {
+      "id": 4,
+      "name": "Ms. Sunita Rao",
+      "role": "Treasurer",
+      "photo": "https://picsum.photos/seed/mgmt4/300/300"
+    },
+    {
+      "id": 5,
+      "name": "Mr. Anand Krishnan",
+      "role": "Academic Advisor",
+      "photo": "https://picsum.photos/seed/mgmt5/300/300"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Fatima Sheikh",
+      "role": "Member",
+      "photo": "https://picsum.photos/seed/mgmt6/300/300"
+    },
+    {
+      "id": 7,
+      "name": "Mr. Vinod Mehta",
+      "role": "Member",
+      "photo": "https://picsum.photos/seed/mgmt7/300/300"
+    },
+    {
+      "id": 8,
+      "name": "Ms. Priya Sharma",
+      "role": "Parent Representative",
+      "photo": "https://picsum.photos/seed/mgmt8/300/300"
+    }
+  ]
+}

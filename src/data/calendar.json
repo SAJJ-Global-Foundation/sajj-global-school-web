@@ -1,0 +1,128 @@
+{
+  "academicYear": "2024–25",
+  "terms": [
+    {
+      "id": "term-1",
+      "name": "Term I",
+      "period": "April 2024 – September 2024",
+      "months": [
+        {
+          "month": "April 2024",
+          "events": [
+            { "date": "01", "event": "New Academic Year Begins" },
+            { "date": "05", "event": "Investiture Ceremony" },
+            { "date": "14", "event": "Dr. Ambedkar Jayanti (Holiday)" },
+            { "date": "20–22", "event": "House Prelims – Athletics" }
+          ]
+        },
+        {
+          "month": "May 2024",
+          "events": [
+            { "date": "1", "event": "Labour Day (Holiday)" },
+            { "date": "10", "event": "First Unit Test Begins (Class VI–XII)" },
+            { "date": "20", "event": "Summer Schedule Begins" },
+            { "date": "25", "event": "Summer Vacation Begins" }
+          ]
+        },
+        {
+          "month": "June 2024",
+          "events": [
+            { "date": "17", "event": "School Reopens (Summer Vacation Ends)" },
+            { "date": "20", "event": "Parent Orientation – New Admissions" }
+          ]
+        },
+        {
+          "month": "July 2024",
+          "events": [
+            { "date": "03", "event": "Half-Yearly Syllabus Completion Target" },
+            { "date": "15", "event": "Annual Science Exhibition" },
+            { "date": "20", "event": "Annual Sports Day" },
+            { "date": "28", "event": "Examination Schedule Announced" }
+          ]
+        },
+        {
+          "month": "August 2024",
+          "events": [
+            { "date": "03", "event": "Parent-Teacher Meeting" },
+            { "date": "15", "event": "Independence Day Celebration (Holiday)" },
+            { "date": "22", "event": "Half-Yearly Examinations Begin" }
+          ]
+        },
+        {
+          "month": "September 2024",
+          "events": [
+            { "date": "05", "event": "Teachers' Day Celebration" },
+            { "date": "14", "event": "Hindi Diwas" },
+            { "date": "15", "event": "Annual Examination Begins (Class I–IX)" },
+            { "date": "28", "event": "Term I Concludes" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "term-2",
+      "name": "Term II",
+      "period": "October 2024 – March 2025",
+      "months": [
+        {
+          "month": "October 2024",
+          "events": [
+            { "date": "02", "event": "Gandhi Jayanti (Holiday)" },
+            { "date": "07", "event": "Term II Begins" },
+            { "date": "12–14", "event": "Dussehra Holidays" },
+            { "date": "22", "event": "Second Unit Test Begins" }
+          ]
+        },
+        {
+          "month": "November 2024",
+          "events": [
+            { "date": "01", "event": "Diwali Holidays Begin" },
+            { "date": "05", "event": "School Reopens After Diwali" },
+            { "date": "14", "event": "Children's Day Celebrations" },
+            { "date": "26", "event": "Constitution Day Programme" }
+          ]
+        },
+        {
+          "month": "December 2024",
+          "events": [
+            { "date": "10–14", "event": "Annual Cultural Function" },
+            { "date": "21", "event": "Winter Vacation Begins" }
+          ]
+        },
+        {
+          "month": "January 2025",
+          "events": [
+            { "date": "02", "event": "School Reopens" },
+            { "date": "26", "event": "Republic Day Celebration (Holiday)" }
+          ]
+        },
+        {
+          "month": "February 2025",
+          "events": [
+            { "date": "05", "event": "Pre-Board Examination Begins (Class X & XII)" },
+            { "date": "15", "event": "Third Unit Test – Classes I–IX" },
+            { "date": "22", "event": "Annual Exhibition & Science Fair" }
+          ]
+        },
+        {
+          "month": "March 2025",
+          "events": [
+            { "date": "10", "event": "Board Examination Begins (Class X & XII)" },
+            { "date": "20", "event": "Annual Examination – Classes I–IX" },
+            { "date": "31", "event": "Academic Year Closes" }
+          ]
+        }
+      ]
+    }
+  ],
+  "coCurricular": [
+    { "activity": "Music & Performing Arts", "day": "Monday & Wednesday", "time": "3:30 PM – 5:00 PM" },
+    { "activity": "Fine Arts & Craft", "day": "Tuesday & Thursday", "time": "3:30 PM – 5:00 PM" },
+    { "activity": "Debate & Public Speaking", "day": "Friday", "time": "3:30 PM – 5:00 PM" },
+    { "activity": "STEM Club", "day": "Wednesday", "time": "3:30 PM – 5:30 PM" },
+    { "activity": "Sports Training (Athletics/Volleyball/Badminton)", "day": "Mon–Sat", "time": "6:30 AM – 8:00 AM" },
+    { "activity": "Photography & Media", "day": "Saturday", "time": "10:00 AM – 12:00 PM" },
+    { "activity": "Eco Club / Environmental Science", "day": "Saturday", "time": "10:00 AM – 12:00 PM" },
+    { "activity": "Literary Club / Creative Writing", "day": "Thursday", "time": "3:30 PM – 5:00 PM" }
+  ]
+}
