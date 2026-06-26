@@ -127,8 +127,8 @@ export default function Footer() {
                   +91 11 2345 6789
                 </a>
               </li>
-              <li className="flex items-center gap-3">
-                <Mail size={16} className="text-brand-cyan flex-shrink-0" />
+              <li className="flex items-start gap-3">
+                <Mail size={16} className="text-brand-cyan flex-shrink-0 mt-0.5" />
                 <a href="mailto:info@sajjglobalschool.edu.in" className="text-sm text-slate-400 hover:text-brand-cyan transition-colors break-all">
                   info@sajjglobalschool.edu.in
                 </a>

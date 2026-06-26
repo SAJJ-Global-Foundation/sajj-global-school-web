@@ -13,12 +13,12 @@ const CONTACT_INFO = [
   {
     icon: Phone,
     title: 'Phone',
-    lines: ['+91 11 2345 6789', '+91 98765 43210 (Admissions)'],
+    lines: ['+91 11 2345 6789'],
   },
   {
     icon: Mail,
     title: 'Email',
-    lines: ['info@sajjglobalschool.edu.in', 'admissions@sajjglobalschool.edu.in'],
+    lines: ['info@sajjglobalschool.edu.in'],
   },
   {
     icon: Clock,
@@ -73,14 +73,14 @@ export default function Contact() {
                 </div>
                 <iframe
                   title="Sajj Global School location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.4!2d77.2!3d28.65!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM5JzAwLjAiTiA3N8KwMTInMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                  src="https://www.google.com/maps?q=Sajj+Global+School+Campus,+Sector+12,+Education+Zone,+New+Delhi+110085&output=embed"
                   width="100%"
                   height="280"
                   style={{ border: 0, display: 'block' }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  aria-label="Map showing Sajj Global School location"
+                  aria-label="Map showing Sajj Global School Campus, Sector 12, Education Zone, New Delhi"
                 />
               </div>
             </div>
@@ -97,7 +97,7 @@ export default function Contact() {
             <a href="/admissions" className="gradient-btn px-8 py-3 rounded-xl font-display font-semibold text-white inline-flex items-center gap-2">
               Admissions Page
             </a>
-            <a href="tel:+919876543210" className="gradient-btn px-8 py-3 rounded-xl font-display font-semibold text-white inline-flex items-center gap-2" style={{ background: 'var(--navy-700)', backgroundImage: 'none' }}>
+            <a href="tel:+911123456789" className="gradient-btn px-8 py-3 rounded-xl font-display font-semibold text-white inline-flex items-center gap-2" style={{ background: 'var(--navy-700)', backgroundImage: 'none' }}>
               <Phone size={16} /> Call Admissions
             </a>
           </div>
