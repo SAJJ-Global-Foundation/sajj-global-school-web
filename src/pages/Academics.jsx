@@ -183,13 +183,13 @@ export default function Academics() {
           {/* Highlights */}
           <div className="mt-12 grid md:grid-cols-2 gap-6">
             <div className="relative rounded-3xl overflow-hidden aspect-video">
-              <img src="https://picsum.photos/seed/cocurr1/600/340" alt="Students performing on stage" className="w-full h-full object-cover" />
+              <img src="https://picsum.photos/seed/cocurr1/600/340" alt="Students performing classical dance and drama on stage" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent flex items-end p-5">
                 <p className="font-display font-bold text-white">Arts & Culture</p>
               </div>
             </div>
             <div className="relative rounded-3xl overflow-hidden aspect-video">
-              <img src="https://picsum.photos/seed/cocurr2/600/340" alt="Students in sports training" className="w-full h-full object-cover" />
+              <img src="https://picsum.photos/seed/cocurr2/600/340" alt="Students training on the athletics track during sports programme" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-900/70 to-transparent flex items-end p-5">
                 <p className="font-display font-bold text-white">Sports & Athletics</p>
               </div>

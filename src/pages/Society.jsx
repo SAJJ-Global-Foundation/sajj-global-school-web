@@ -109,7 +109,7 @@ export default function Society() {
             <div className="relative rounded-3xl overflow-hidden aspect-video shadow-card-hover">
               <img
                 src="https://picsum.photos/seed/foundation-overview/700/450"
-                alt="Foundation activities"
+                alt="Sajj Global Foundation community activities and outreach in Kolkata"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-navy-900/30 to-transparent" />

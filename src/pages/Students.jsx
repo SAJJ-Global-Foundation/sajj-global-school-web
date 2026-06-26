@@ -5,46 +5,46 @@ import SectionHeading from '@/components/ui/SectionHeading.jsx';
 import Card from '@/components/ui/Card.jsx';
 
 const ACHIEVEMENTS = [
-  { icon: Trophy, title: 'State Science Olympiad', year: '2024', detail: 'Gold Medal — Priya Sharma (Class XII)', category: 'Academics' },
-  { icon: Medal, title: 'District Athletics Champion', year: '2024', detail: 'Arjun Mehta — 100m & 200m Sprint Gold', category: 'Sports' },
-  { icon: Star, title: 'National Debate Championship', year: '2023', detail: 'Runners-up — Team of 4, Class X–XII', category: 'Debate' },
-  { icon: Trophy, title: 'CBSE Inter-School Science Fair', year: '2023', detail: '1st Prize — AI Plant Detection Model', category: 'Academics' },
-  { icon: Medal, title: 'State Badminton Championship', year: '2024', detail: 'Girls Doubles — Gold Medal', category: 'Sports' },
-  { icon: Star, title: 'National Creative Writing Award', year: '2023', detail: 'Zoya Ansari (Class XI) — 2nd Rank', category: 'Arts' },
+  { icon: Trophy, title: 'West Bengal State Science Olympiad', year: '2024', detail: 'Gold Medal — Rishita Ghosh (Class XII), Kolkata District Topper', category: 'Academics' },
+  { icon: Medal, title: 'Kolkata District Athletics Champion', year: '2024', detail: 'Arnab Mondal — 100m & 200m Sprint Gold; Pritha Roy — Long Jump Gold', category: 'Sports' },
+  { icon: Star, title: 'National Debate Championship', year: '2023', detail: 'Runners-up — Team of 4 from Classes X–XII', category: 'Debate' },
+  { icon: Trophy, title: 'CBSE Inter-School Science Fair', year: '2023', detail: '1st Prize — Blockchain Attendance System, Class XII', category: 'Academics' },
+  { icon: Medal, title: 'State Badminton Championship', year: '2024', detail: 'Girls Doubles Gold — Ankita Roy & Debasmita Sen', category: 'Sports' },
+  { icon: Star, title: 'National Creative Writing Award', year: '2023', detail: 'Zoya Ansari (Class XI) — 2nd Rank, Bengali Essay Category', category: 'Arts' },
 ];
 
 const ACTIVITIES = [
   {
     icon: BookOpen, title: 'Student Council',
-    body: 'An elected student council that gives students a democratic voice in school governance, building leadership and civic responsibility.',
+    body: 'An elected student council giving students a democratic voice in school governance — building leadership, civic responsibility, and communication skills.',
     image: 'https://picsum.photos/seed/stcouncil/500/350',
   },
   {
-    icon: Music, title: 'Performing Arts Club',
-    body: 'Drama, music, dance — the performing arts club stages two major productions a year and performs at inter-school festivals.',
+    icon: Music, title: 'Performing Arts & Rabindra Sangeet Club',
+    body: 'Drama, Rabindra Sangeet, classical and folk dance — the club stages two major productions a year and performs at inter-school festivals across Kolkata.',
     image: 'https://picsum.photos/seed/perarts/500/350',
   },
   {
-    icon: Brush, title: 'STEM Innovation Lab',
-    body: 'A weekly club where students design, build, and test real-world solutions. Projects have won at state and national levels.',
+    icon: Brush, title: 'STEM & Robotics Innovation Lab',
+    body: 'A weekly club where students design, build, and test real-world solutions. Projects have won at state and national levels, with two reaching IIT Kharagpur review.',
     image: 'https://picsum.photos/seed/stemlab/500/350',
   },
   {
     icon: Users, title: 'Community Service Cell',
-    body: 'Students lead initiatives in tutoring underprivileged children, environmental drives, and local community outreach.',
+    body: 'Students lead initiatives in tutoring underprivileged children in Rajarhat, tree plantation drives in Newtown Eco Park, and local community outreach.',
     image: 'https://picsum.photos/seed/community/500/350',
   },
 ];
 
 const SPORTS = [
-  { sport: 'Athletics', achievements: 'District Champions 2023 & 2024; 3 state qualifiers' },
-  { sport: 'Swimming', achievements: 'State silver medallist; in-house pool training daily' },
-  { sport: 'Badminton', achievements: 'State gold (Girls Doubles 2024); active coaching programme' },
-  { sport: 'Cricket', achievements: 'District runners-up 2023; astro-turf practice nets' },
-  { sport: 'Volleyball', achievements: 'Inter-school champions; girls team unbeaten 2024' },
-  { sport: 'Basketball', achievements: 'District quarter-finalists; dedicated indoor court' },
-  { sport: 'Chess', achievements: 'State-level participant; Friday club sessions' },
-  { sport: 'Yoga & Fitness', achievements: 'Certified instructor; daily morning sessions for all' },
+  { sport: 'Athletics', achievements: 'Kolkata District Champions 2023 & 2024; 3 West Bengal state qualifiers' },
+  { sport: 'Football', achievements: 'Kolkata schools unbeaten girls team 2024; boys district quarter-finalists' },
+  { sport: 'Badminton', achievements: 'State gold (Girls Doubles 2024); active year-round coaching programme' },
+  { sport: 'Swimming', achievements: 'State silver medallist; on-campus pool training every morning' },
+  { sport: 'Cricket', achievements: 'Kolkata inter-school runners-up 2023; turf practice nets on campus' },
+  { sport: 'Basketball', achievements: 'District quarter-finalists; dedicated indoor court and evening sessions' },
+  { sport: 'Chess', achievements: 'West Bengal state-level participant; weekly Friday club sessions' },
+  { sport: 'Yoga & Fitness', achievements: 'Certified instructor on campus; daily morning sessions for all students' },
 ];
 
 export default function Students() {
@@ -52,15 +52,15 @@ export default function Students() {
     <>
       <PageHero
         title="Student Life"
-        subtitle="At SGS, students don't just study — they lead, create, compete, and grow in every dimension."
+        subtitle="At SGS Kolkata, students don't just study — they lead, create, compete, and grow in every dimension, inspired by the city's legacy of art, intellect, and ambition."
         breadcrumbs={[{ label: 'Students', to: '/students' }]}
-        seoDescription="Student activities, achievements, sports, and events at Sajj Global School."
+        seoDescription="Student activities, achievements, sports, and events at Sajj Global School, Newtown Kolkata."
       />
 
       {/* ── Activities ── */}
       <section id="activities" className="py-16 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading label="Campus Life" title="Student Activities" subtitle="From student governance to creative clubs, we give students the platform to lead." />
+          <SectionHeading label="Campus Life" title="Student Activities" subtitle="From student governance to Rabindra Sangeet, we give every student a platform to lead and create." />
           <div className="mt-10 grid sm:grid-cols-2 gap-6">
             {ACTIVITIES.map((act, i) => (
               <motion.div
@@ -91,7 +91,7 @@ export default function Students() {
       {/* ── Achievements ── */}
       <section id="achievements" className="py-16 sm:py-20 bg-brand-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading label="Pride" title="Student Achievements" centered subtitle="Our students represent SGS at district, state, and national levels — and bring home the laurels." />
+          <SectionHeading label="Pride" title="Student Achievements" centered subtitle="Our students represent SGS at district, state, and national levels — and bring back the laurels to Kolkata." />
           <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {ACHIEVEMENTS.map((ach) => (
               <Card key={ach.title} className="border border-brand-border">
@@ -114,9 +114,9 @@ export default function Students() {
           {/* Highlight banner */}
           <div className="mt-10 relative rounded-3xl bg-navy-900 overflow-hidden p-8 sm:p-10 text-center">
             <div className="absolute top-0 left-0 right-0 h-1 bg-brand-gradient" />
-            <p className="text-xs text-brand-cyan font-semibold tracking-widest uppercase mb-3">2024 Board Results</p>
+            <p className="text-xs text-brand-cyan font-semibold tracking-widest uppercase mb-3">2024 CBSE Board Results</p>
             <h3 className="font-display font-bold text-white text-3xl sm:text-4xl">100% Pass Rate</h3>
-            <p className="text-slate-300 mt-2">14 students scored above 95% — including our first State Topper in Mathematics</p>
+            <p className="text-slate-300 mt-2">16 students scored above 95% — including Rishita Ghosh, Kolkata District Topper in Science</p>
           </div>
         </div>
       </section>
@@ -126,7 +126,7 @@ export default function Students() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <SectionHeading label="Sports & Athletics" title="Sports Programme" subtitle="We believe sport builds not just bodies, but character — resilience, teamwork, and discipline." />
+              <SectionHeading label="Sports & Athletics" title="Sports Programme" subtitle="We believe sport builds character — resilience, teamwork, and discipline. Our teams compete across Kolkata, West Bengal, and nationally." />
               <div className="mt-8 flex flex-col gap-3">
                 {SPORTS.map((s) => (
                   <div key={s.sport} className="flex items-start gap-4 p-4 bg-brand-light rounded-xl border border-brand-border">
@@ -142,9 +142,14 @@ export default function Students() {
               </div>
             </div>
             <div className="grid grid-cols-2 gap-3">
-              {['https://picsum.photos/seed/sport1/400/300', 'https://picsum.photos/seed/sport2/400/300', 'https://picsum.photos/seed/sport3/400/300', 'https://picsum.photos/seed/sport4/400/300'].map((src, i) => (
+              {[
+                'https://picsum.photos/seed/sport1/400/300',
+                'https://picsum.photos/seed/sport2/400/300',
+                'https://picsum.photos/seed/sport3/400/300',
+                'https://picsum.photos/seed/sport4/400/300',
+              ].map((src, i) => (
                 <div key={i} className="rounded-2xl overflow-hidden aspect-[4/3]">
-                  <img src={src} alt={`Sports action ${i + 1}`} loading="lazy" className="w-full h-full object-cover" />
+                  <img src={src} alt={`SGS sports action ${i + 1}`} loading="lazy" className="w-full h-full object-cover" />
                 </div>
               ))}
             </div>

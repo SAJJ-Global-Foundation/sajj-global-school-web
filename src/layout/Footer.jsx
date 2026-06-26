@@ -74,8 +74,9 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-sm leading-relaxed text-slate-400 mb-5">
-              The Sajj Global Foundation is dedicated to fostering excellence in education, promoting
-              cultural values, and building a community of responsible, compassionate leaders for tomorrow.
+              The Sajj Global Foundation is dedicated to fostering excellence in education, celebrating
+              Bengal's rich cultural heritage, and building a community of responsible, compassionate
+              leaders for tomorrow — rooted in Kolkata, reaching for the world.
             </p>
             <div className="flex items-center gap-3">
               {socials.map(({ Icon, href, label }) => (
@@ -117,14 +118,15 @@ export default function Footer() {
                 <MapPin size={16} className="text-brand-cyan flex-shrink-0 mt-0.5" />
                 <p className="text-sm text-slate-400 leading-relaxed">
                   Sajj Global School Campus,<br />
-                  Sector 12, Education Zone,<br />
-                  New Delhi – 110 085
+                  Action Area IID, Newtown,<br />
+                  Rajarhat, Kolkata – 700 156<br />
+                  West Bengal
                 </p>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-brand-cyan flex-shrink-0" />
-                <a href="tel:+911123456789" className="text-sm text-slate-400 hover:text-brand-cyan transition-colors">
-                  +91 11 2345 6789
+                <a href="tel:+913340005678" className="text-sm text-slate-400 hover:text-brand-cyan transition-colors">
+                  +91 33 4000 5678
                 </a>
               </li>
               <li className="flex items-start gap-3">

@@ -11,12 +11,12 @@ import { getManagementCommittee, getLeadership } from '@/services/facultyService
 const fadeUp = { hidden: { opacity: 0, y: 24 }, show: { opacity: 1, y: 0, transition: { duration: 0.55 } } };
 
 const INFRA = [
-  { icon: Building2, title: 'Smart Classrooms', body: '60+ smart classrooms with interactive digital boards, Wi-Fi connectivity, and ergonomic seating.' },
-  { icon: BookOpen, title: 'Central Library', body: '40,000+ volumes, digital catalogue, reading rooms, and a curated e-resources section.' },
-  { icon: Globe, title: 'Science Laboratories', body: 'Fully equipped Physics, Chemistry, Biology, and Computer labs with modern instruments.' },
-  { icon: Award, title: 'Sports Complex', body: 'Olympic-size pool, athletics track, indoor badminton/basketball courts, and dedicated coaching.' },
-  { icon: Heart, title: 'Health & Wellness', body: 'On-campus medical room, counselling centre, and a dedicated wellness coordinator.' },
-  { icon: Users, title: 'Cafeteria', body: 'Hygienic, nutritionally balanced meals prepared fresh daily under expert dietary supervision.' },
+  { icon: Building2, title: 'Smart Classrooms', body: '60+ smart classrooms with interactive digital boards, Wi-Fi connectivity, and ergonomic seating across our Newtown campus.' },
+  { icon: BookOpen, title: 'Central Library', body: '40,000+ volumes including Bengali literature, digital catalogue, reading rooms, and a dedicated Rabindra Kona section.' },
+  { icon: Globe, title: 'Science Laboratories', body: 'Fully equipped Physics, Chemistry, Biology, and Computer labs — supporting CBSE and competitive exam preparation.' },
+  { icon: Award, title: 'Sports Complex', body: 'Athletics track, swimming pool, indoor badminton and basketball courts, and a dedicated football ground with full coaching.' },
+  { icon: Heart, title: 'Health & Wellness', body: 'On-campus medical room, student counselling centre, and a dedicated wellness coordinator available every school day.' },
+  { icon: Users, title: 'Cafeteria', body: 'Hygienic cafeteria serving nutritionally balanced Bengali and pan-Indian meals prepared fresh daily under expert dietary supervision.' },
 ];
 
 export default function About() {
@@ -47,7 +47,7 @@ export default function About() {
               <SectionHeading
                 label="School Overview"
                 title="Built to Inspire, Designed to Excel"
-                subtitle="Sajj Global School was established in 2006 by the Sajj Global Foundation with a singular purpose: to create an educational environment where every child can thrive. Today, with over 2,400 students, 120+ faculty, and a sprawling modern campus, we are one of the region's most respected CBSE institutions."
+                subtitle="Sajj Global School was established in 2006 by the Sajj Global Foundation in Newtown, Kolkata — with a singular purpose: to create an educational environment where every child can thrive. Today, with over 2,400 students, 120+ faculty, and a sprawling modern campus in the heart of West Bengal's fastest-growing township, we are one of Kolkata's most respected CBSE institutions."
               />
               <div className="mt-8 grid grid-cols-3 gap-4">
                 {[
@@ -66,13 +66,13 @@ export default function About() {
               <div className="relative rounded-3xl overflow-hidden shadow-card-hover aspect-[4/3]">
                 <img
                   src="https://picsum.photos/seed/about-campus/700/525"
-                  alt="Sajj Global School campus"
+                  alt="Sajj Global School campus, Newtown Kolkata"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-4 left-4 right-4">
                   <div className="bg-white/90 backdrop-blur-sm rounded-2xl px-5 py-3">
                     <p className="font-display font-bold text-navy-900 text-sm">CBSE Affiliated · Est. 2006</p>
-                    <p className="text-xs text-brand-muted">New Delhi, India</p>
+                    <p className="text-xs text-brand-muted">Newtown, Kolkata, West Bengal</p>
                   </div>
                 </div>
               </div>
@@ -166,7 +166,11 @@ export default function About() {
             ))}
           </div>
           <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-3">
-            {['https://picsum.photos/seed/infra1/400/300', 'https://picsum.photos/seed/infra2/400/300', 'https://picsum.photos/seed/infra3/400/300'].map((src, i) => (
+            {[
+              'https://picsum.photos/seed/infra1/400/300',
+              'https://picsum.photos/seed/infra2/400/300',
+              'https://picsum.photos/seed/infra3/400/300',
+            ].map((src, i) => (
               <div key={i} className="rounded-2xl overflow-hidden aspect-[4/3]">
                 <img src={src} alt={`Campus facility ${i + 1}`} loading="lazy" className="w-full h-full object-cover" />
               </div>

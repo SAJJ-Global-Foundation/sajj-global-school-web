@@ -6,12 +6,12 @@ import GalleryGrid from '@/components/GalleryGrid.jsx';
 import { getAlbums, getAlbumCategories } from '@/services/galleryService.js';
 
 const EVENT_GALLERY = [
-  { src: 'https://picsum.photos/seed/ev1/600/450', alt: 'Annual Day 2024', label: 'Annual Day 2024' },
-  { src: 'https://picsum.photos/seed/ev2/600/450', alt: 'Republic Day 2024', label: 'Republic Day' },
-  { src: 'https://picsum.photos/seed/ev3/600/450', alt: 'Independence Day', label: 'Independence Day' },
-  { src: 'https://picsum.photos/seed/ev4/600/450', alt: 'Teachers Day 2024', label: "Teacher's Day" },
-  { src: 'https://picsum.photos/seed/ev5/600/450', alt: 'Children Day 2024', label: "Children's Day" },
-  { src: 'https://picsum.photos/seed/ev6/600/450', alt: 'Diwali celebrations', label: 'Diwali Celebrations' },
+  { src: 'https://picsum.photos/seed/ev1/600/450', alt: 'Annual Prize Distribution 2024 on stage', label: 'Annual Prize Distribution' },
+  { src: 'https://picsum.photos/seed/ev2/600/450', alt: 'Republic Day flag hoisting and march past', label: 'Republic Day 2025' },
+  { src: 'https://picsum.photos/seed/ev3/600/450', alt: 'Independence Day athletics and sports events', label: 'Independence Day 2024' },
+  { src: 'https://picsum.photos/seed/ev4/600/450', alt: "Students celebrate Teachers' Day with activities", label: "Teachers' Day 2024" },
+  { src: 'https://picsum.photos/seed/ev5/600/450', alt: "Children's Day celebration with games and performances", label: "Children's Day 2024" },
+  { src: 'https://picsum.photos/seed/ev6/600/450', alt: 'Kali Puja and Diwali festival celebrations at school', label: 'Kali Puja / Diwali 2024' },
 ];
 
 export default function Gallery() {

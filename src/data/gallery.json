@@ -1,67 +1,221 @@
 {
   "albums": [
     {
-      "id": "science-exhibition-2024",
-      "title": "Science Exhibition 2024",
-      "coverImage": "https://picsum.photos/seed/sci-ex-cover/600/400",
-      "imageCount": 24,
-      "date": "2024-07-15",
+      "id": "saraswati-puja-2025",
+      "title": "Saraswati Puja 2025",
+      "coverImage": "https://picsum.photos/seed/saraswati-puja/600/400",
+      "imageCount": 36,
+      "date": "2025-02-03",
       "category": "Events",
       "images": [
-        { "id": 1, "src": "https://picsum.photos/seed/sci1/900/600", "alt": "Students presenting solar irrigation model", "caption": "Class X team explains their solar-powered irrigation model" },
-        { "id": 2, "src": "https://picsum.photos/seed/sci2/900/600", "alt": "AI plant detection exhibit", "caption": "AI-based plant disease detection by Class XII" },
-        { "id": 3, "src": "https://picsum.photos/seed/sci3/900/600", "alt": "Chemistry experiment display", "caption": "Spectacular chemistry demonstration by Class IX" },
-        { "id": 4, "src": "https://picsum.photos/seed/sci4/900/600", "alt": "Robotics project showcase", "caption": "Robotics team presents line-following robot" },
-        { "id": 5, "src": "https://picsum.photos/seed/sci5/900/600", "alt": "Prize distribution ceremony", "caption": "Principal Ms. Hussain awards the best project trophy" },
-        { "id": 6, "src": "https://picsum.photos/seed/sci6/900/600", "alt": "Guest judges examining exhibits", "caption": "Industry experts reviewing student innovations" }
+        {
+          "id": 1,
+          "src": "https://picsum.photos/seed/spuja1/900/600",
+          "alt": "Marigold flowers and offerings at puja ceremony",
+          "caption": "The beautifully adorned Maa Saraswati idol surrounded by marigold offerings and incense"
+        },
+        {
+          "id": 2,
+          "src": "https://picsum.photos/seed/spuja2/900/600",
+          "alt": "Students in traditional attire at pushpanjali",
+          "caption": "Students in traditional white and yellow attire offering flowers during the morning pushpanjali ceremony"
+        },
+        {
+          "id": 3,
+          "src": "https://picsum.photos/seed/spuja3/900/600",
+          "alt": "Rabindra Nritya classical dance performance",
+          "caption": "Class VIII students present a stunning Rabindra Nritya on the Saraswati Puja evening"
+        },
+        {
+          "id": 4,
+          "src": "https://picsum.photos/seed/spuja4/900/600",
+          "alt": "School choir singing Saraswati Vandana",
+          "caption": "The school choir performs Saraswati Vandana, filling the auditorium with melody"
+        },
+        {
+          "id": 5,
+          "src": "https://picsum.photos/seed/spuja5/900/600",
+          "alt": "Bengali drama performance on stage",
+          "caption": "Class IX drama club presents a Tagore short story adaptation on stage"
+        },
+        {
+          "id": 6,
+          "src": "https://picsum.photos/seed/spuja6/900/600",
+          "alt": "Principal with students at puja celebration",
+          "caption": "Dr. Chandana Bhattacharya with participating students after the cultural programme"
+        }
+      ]
+    },
+    {
+      "id": "durga-puja-2024",
+      "title": "Durga Puja Celebrations 2024",
+      "coverImage": "https://picsum.photos/seed/durga-puja/600/400",
+      "imageCount": 28,
+      "date": "2024-10-10",
+      "category": "Events",
+      "images": [
+        {
+          "id": 1,
+          "src": "https://picsum.photos/seed/dpuja1/900/600",
+          "alt": "School stage decorated for Durga Puja cultural evening",
+          "caption": "The school auditorium stage lit up for the pre-puja cultural evening"
+        },
+        {
+          "id": 2,
+          "src": "https://picsum.photos/seed/dpuja2/900/600",
+          "alt": "Classical dance performance on Mahasaptami",
+          "caption": "Students present a classical dance performance on Mahasaptami"
+        },
+        {
+          "id": 3,
+          "src": "https://picsum.photos/seed/dpuja3/900/600",
+          "alt": "Teachers and students at pre-puja celebration",
+          "caption": "Faculty and students gather for the annual pre-puja cultural event"
+        },
+        {
+          "id": 4,
+          "src": "https://picsum.photos/seed/dpuja4/900/600",
+          "alt": "Floral decorations and offerings at Durga Puja",
+          "caption": "Traditional floral arrangements and marigold offerings at the school puja"
+        },
+        {
+          "id": 5,
+          "src": "https://picsum.photos/seed/dpuja5/900/600",
+          "alt": "Students in traditional Bengali festive attire",
+          "caption": "Students celebrate in traditional puja attire before the autumn break"
+        }
+      ]
+    },
+    {
+      "id": "rabindra-jayanti-2024",
+      "title": "Rabindra Jayanti Cultural Programme 2024",
+      "coverImage": "https://picsum.photos/seed/rabindra-jayanti/600/400",
+      "imageCount": 42,
+      "date": "2024-05-08",
+      "category": "Cultural",
+      "images": [
+        {
+          "id": 1,
+          "src": "https://picsum.photos/seed/rjay1/900/600",
+          "alt": "Rabindra Nritya classical dance on stage",
+          "caption": "Class X students perform Rabindra Nritya to Tagore's famous composition"
+        },
+        {
+          "id": 2,
+          "src": "https://picsum.photos/seed/rjay2/900/600",
+          "alt": "School choir presenting Rabindra Sangeet",
+          "caption": "The school choir presents 'Amar Shonar Bangla' in perfect harmony"
+        },
+        {
+          "id": 3,
+          "src": "https://picsum.photos/seed/rjay3/900/600",
+          "alt": "Stage decorated with flowers for Rabindra Jayanti",
+          "caption": "Auditorium stage adorned with traditional alpana and floral arrangements"
+        },
+        {
+          "id": 4,
+          "src": "https://picsum.photos/seed/rjay4/900/600",
+          "alt": "Class XII drama Dak Ghar on stage",
+          "caption": "Class XII drama club enacts Tagore's 'Dak Ghar' to a packed auditorium"
+        },
+        {
+          "id": 5,
+          "src": "https://picsum.photos/seed/rjay5/900/600",
+          "alt": "Tagore scholar addressing the gathering",
+          "caption": "Chief Guest Mr. Suman Banerjee from Jadavpur University addresses the audience"
+        },
+        {
+          "id": 6,
+          "src": "https://picsum.photos/seed/rjay6/900/600",
+          "alt": "Rabindra Kona library corner inauguration",
+          "caption": "Principal Dr. Bhattacharya inaugurates the Rabindra Kona in the school library"
+        }
       ]
     },
     {
       "id": "sports-day-2024",
       "title": "Annual Sports Day 2024",
       "coverImage": "https://picsum.photos/seed/sports-cover/600/400",
-      "imageCount": 32,
+      "imageCount": 38,
       "date": "2024-07-20",
       "category": "Sports",
       "images": [
-        { "id": 1, "src": "https://picsum.photos/seed/sp1/900/600", "alt": "100m sprint race", "caption": "Arjun Mehta wins gold in 100m sprint" },
-        { "id": 2, "src": "https://picsum.photos/seed/sp2/900/600", "alt": "Girls volleyball team", "caption": "Girls' volleyball team — champions!" },
-        { "id": 3, "src": "https://picsum.photos/seed/sp3/900/600", "alt": "March past by students", "caption": "House march past during opening ceremony" },
-        { "id": 4, "src": "https://picsum.photos/seed/sp4/900/600", "alt": "Long jump competition", "caption": "Exciting long jump competition" },
-        { "id": 5, "src": "https://picsum.photos/seed/sp5/900/600", "alt": "Medal ceremony", "caption": "Overall championship trophy presentation" },
-        { "id": 6, "src": "https://picsum.photos/seed/sp6/900/600", "alt": "Relay race", "caption": "4×100m relay — SGS team in action" }
+        {
+          "id": 1,
+          "src": "https://picsum.photos/seed/sp1/900/600",
+          "alt": "100m sprint race on athletics track",
+          "caption": "Arnab Mondal crosses the finish line to win gold in the 100m sprint"
+        },
+        {
+          "id": 2,
+          "src": "https://picsum.photos/seed/sp2/900/600",
+          "alt": "Girls football team in action",
+          "caption": "SGS girls football team — unbeaten inter-school champions 2024"
+        },
+        {
+          "id": 3,
+          "src": "https://picsum.photos/seed/sp3/900/600",
+          "alt": "House march past during Sports Day opening ceremony",
+          "caption": "All four houses march past during the colourful opening ceremony"
+        },
+        {
+          "id": 4,
+          "src": "https://picsum.photos/seed/sp4/900/600",
+          "alt": "Long jump competition on sports day",
+          "caption": "Pritha Roy lands a new district record in the long jump — 5.42 metres"
+        },
+        {
+          "id": 5,
+          "src": "https://picsum.photos/seed/sp5/900/600",
+          "alt": "Overall championship trophy ceremony",
+          "caption": "Overall Championship Trophy presented to the school by the Chief Guest"
+        },
+        {
+          "id": 6,
+          "src": "https://picsum.photos/seed/sp6/900/600",
+          "alt": "4x100m relay race at Sports Day",
+          "caption": "The thrilling 4×100m relay — SGS Flames House takes gold"
+        }
       ]
     },
     {
-      "id": "cultural-day-2024",
-      "title": "Cultural Harmony Day 2024",
-      "coverImage": "https://picsum.photos/seed/cult-cover/600/400",
-      "imageCount": 48,
-      "date": "2024-03-22",
-      "category": "Cultural",
+      "id": "science-exhibition-2024",
+      "title": "Annual Science Exhibition 2024",
+      "coverImage": "https://picsum.photos/seed/sci-ex-cover/600/400",
+      "imageCount": 24,
+      "date": "2024-07-15",
+      "category": "Academic",
       "images": [
-        { "id": 1, "src": "https://picsum.photos/seed/cult1/900/600", "alt": "Classical dance performance", "caption": "Bharatanatyam performance by Class VIII" },
-        { "id": 2, "src": "https://picsum.photos/seed/cult2/900/600", "alt": "Folk music", "caption": "Rajasthani folk music by Class VII" },
-        { "id": 3, "src": "https://picsum.photos/seed/cult3/900/600", "alt": "Drama performance", "caption": "Class XII drama — cultural medley finale" },
-        { "id": 4, "src": "https://picsum.photos/seed/cult4/900/600", "alt": "Art installations", "caption": "Student art installations in the foyer" },
-        { "id": 5, "src": "https://picsum.photos/seed/cult5/900/600", "alt": "Group singing", "caption": "Junior choir performs regional folk songs" },
-        { "id": 6, "src": "https://picsum.photos/seed/cult6/900/600", "alt": "Audience and stage", "caption": "Packed auditorium for the grand finale" }
-      ]
-    },
-    {
-      "id": "campus-life",
-      "title": "Campus Life",
-      "coverImage": "https://picsum.photos/seed/campus-cover/600/400",
-      "imageCount": 60,
-      "date": "2024-01-01",
-      "category": "Campus",
-      "images": [
-        { "id": 1, "src": "https://picsum.photos/seed/camp1/900/600", "alt": "Students in library", "caption": "Our well-stocked central library" },
-        { "id": 2, "src": "https://picsum.photos/seed/camp2/900/600", "alt": "Computer lab", "caption": "The newly inaugurated 60-seat computer lab" },
-        { "id": 3, "src": "https://picsum.photos/seed/camp3/900/600", "alt": "Science lab", "caption": "Students at work in the science laboratory" },
-        { "id": 4, "src": "https://picsum.photos/seed/camp4/900/600", "alt": "Playground", "caption": "Spacious outdoor play area" },
-        { "id": 5, "src": "https://picsum.photos/seed/camp5/900/600", "alt": "Cafeteria", "caption": "Hygienic and nutritious school cafeteria" },
-        { "id": 6, "src": "https://picsum.photos/seed/camp6/900/600", "alt": "Classroom", "caption": "Smart classrooms with interactive displays" }
+        {
+          "id": 1,
+          "src": "https://picsum.photos/seed/sci1/900/600",
+          "alt": "Students presenting science project model",
+          "caption": "Class X team explains their solar-powered water purification model"
+        },
+        {
+          "id": 2,
+          "src": "https://picsum.photos/seed/sci2/900/600",
+          "alt": "Blockchain attendance system demonstration",
+          "caption": "Class XII presents their blockchain-based school attendance system"
+        },
+        {
+          "id": 3,
+          "src": "https://picsum.photos/seed/sci3/900/600",
+          "alt": "IoT air quality monitoring device by Class IX",
+          "caption": "IoT-enabled air quality monitoring device in action — Class IX"
+        },
+        {
+          "id": 4,
+          "src": "https://picsum.photos/seed/sci4/900/600",
+          "alt": "IIT Kharagpur judges reviewing student projects",
+          "caption": "Faculty from IIT Kharagpur and Jadavpur University evaluate student innovations"
+        },
+        {
+          "id": 5,
+          "src": "https://picsum.photos/seed/sci5/900/600",
+          "alt": "Prize distribution at science exhibition",
+          "caption": "Dr. Bhattacharya awards the Best Innovation Prize to the Class XII team"
+        }
       ]
     },
     {
@@ -72,23 +226,104 @@
       "date": "2024-05-30",
       "category": "Events",
       "images": [
-        { "id": 1, "src": "https://picsum.photos/seed/grad1/900/600", "alt": "Graduation procession", "caption": "Class XII graduation procession" },
-        { "id": 2, "src": "https://picsum.photos/seed/grad2/900/600", "alt": "Degree distribution", "caption": "Principal awarding completion certificates" },
-        { "id": 3, "src": "https://picsum.photos/seed/grad3/900/600", "alt": "Topper felicitation", "caption": "State topper Priya Sharma felicitated" },
-        { "id": 4, "src": "https://picsum.photos/seed/grad4/900/600", "alt": "Group photo", "caption": "Class of 2024 group photograph" }
+        {
+          "id": 1,
+          "src": "https://picsum.photos/seed/grad1/900/600",
+          "alt": "Class XII graduation ceremony procession",
+          "caption": "The Class of 2024 graduation procession into the school auditorium"
+        },
+        {
+          "id": 2,
+          "src": "https://picsum.photos/seed/grad2/900/600",
+          "alt": "Principal presenting completion certificates",
+          "caption": "Principal Dr. Bhattacharya presents completion certificates to graduates"
+        },
+        {
+          "id": 3,
+          "src": "https://picsum.photos/seed/grad3/900/600",
+          "alt": "District topper Rishita Ghosh felicitated on stage",
+          "caption": "Kolkata District Topper Rishita Ghosh felicitated at the graduation ceremony"
+        },
+        {
+          "id": 4,
+          "src": "https://picsum.photos/seed/grad4/900/600",
+          "alt": "Class of 2024 group photograph",
+          "caption": "Class of 2024 — graduating batch group photograph on the school steps"
+        }
       ]
     },
     {
-      "id": "community-outreach",
+      "id": "campus-life",
+      "title": "Campus Life at SGS",
+      "coverImage": "https://picsum.photos/seed/campus-cover/600/400",
+      "imageCount": 60,
+      "date": "2024-01-01",
+      "category": "Campus",
+      "images": [
+        {
+          "id": 1,
+          "src": "https://picsum.photos/seed/camp1/900/600",
+          "alt": "Students in the central library with 40,000+ volumes",
+          "caption": "Our well-stocked central library with 40,000+ volumes and a Rabindra Kona section"
+        },
+        {
+          "id": 2,
+          "src": "https://picsum.photos/seed/camp2/900/600",
+          "alt": "60-seat computer laboratory with modern workstations",
+          "caption": "The modern 60-seat computer lab — fully equipped, inaugurated 2024"
+        },
+        {
+          "id": 3,
+          "src": "https://picsum.photos/seed/camp3/900/600",
+          "alt": "Students conducting experiment in science laboratory",
+          "caption": "Students at work in the fully equipped physics and chemistry laboratories"
+        },
+        {
+          "id": 4,
+          "src": "https://picsum.photos/seed/camp4/900/600",
+          "alt": "School athletics track and outdoor sports ground",
+          "caption": "Spacious outdoor athletics track and sports grounds at the Newtown campus"
+        },
+        {
+          "id": 5,
+          "src": "https://picsum.photos/seed/camp5/900/600",
+          "alt": "School cafeteria serving nutritious meals",
+          "caption": "Hygienic cafeteria serving nutritionally balanced Bengali and pan-Indian meals"
+        },
+        {
+          "id": 6,
+          "src": "https://picsum.photos/seed/camp6/900/600",
+          "alt": "Smart classroom with interactive digital board",
+          "caption": "Smart classrooms with interactive digital boards — across all 60 rooms"
+        }
+      ]
+    },
+    {
+      "id": "community-outreach-2024",
       "title": "Community Outreach 2024",
       "coverImage": "https://picsum.photos/seed/outreach-cover/600/400",
       "imageCount": 18,
       "date": "2024-02-14",
       "category": "Community",
       "images": [
-        { "id": 1, "src": "https://picsum.photos/seed/out1/900/600", "alt": "Tree plantation drive", "caption": "Students plant 500 saplings on campus" },
-        { "id": 2, "src": "https://picsum.photos/seed/out2/900/600", "alt": "Teaching underprivileged children", "caption": "SGS students teaching at community centre" },
-        { "id": 3, "src": "https://picsum.photos/seed/out3/900/600", "alt": "Food distribution", "caption": "Foundation food distribution initiative" }
+        {
+          "id": 1,
+          "src": "https://picsum.photos/seed/out1/900/600",
+          "alt": "Students planting saplings in Newtown Eco Park",
+          "caption": "Students plant 500 saplings in the Newtown Eco Park area as part of the green drive"
+        },
+        {
+          "id": 2,
+          "src": "https://picsum.photos/seed/out2/900/600",
+          "alt": "SGS students teaching at Rajarhat community centre",
+          "caption": "SGS students teach reading and numeracy at the Rajarhat community learning centre"
+        },
+        {
+          "id": 3,
+          "src": "https://picsum.photos/seed/out3/900/600",
+          "alt": "Foundation food distribution initiative for local families",
+          "caption": "Sajj Global Foundation food distribution initiative for families in the neighbourhood"
+        }
       ]
     }
   ]

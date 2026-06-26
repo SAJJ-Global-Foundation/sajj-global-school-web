@@ -8,12 +8,12 @@ const CONTACT_INFO = [
   {
     icon: MapPin,
     title: 'Address',
-    lines: ['Sajj Global School Campus,', 'Sector 12, Education Zone,', 'New Delhi – 110 085'],
+    lines: ['Sajj Global School Campus,', 'Action Area IID, Newtown,', 'Rajarhat, Kolkata – 700 156', 'West Bengal'],
   },
   {
     icon: Phone,
     title: 'Phone',
-    lines: ['+91 11 2345 6789'],
+    lines: ['+91 33 4000 5678'],
   },
   {
     icon: Mail,
@@ -73,14 +73,14 @@ export default function Contact() {
                 </div>
                 <iframe
                   title="Sajj Global School location"
-                  src="https://www.google.com/maps?q=Sajj+Global+School+Campus,+Sector+12,+Education+Zone,+New+Delhi+110085&output=embed"
+                  src="https://www.google.com/maps?q=Sajj+Global+School+Action+Area+IID+Newtown+Rajarhat+Kolkata+West+Bengal&output=embed"
                   width="100%"
                   height="280"
                   style={{ border: 0, display: 'block' }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  aria-label="Map showing Sajj Global School Campus, Sector 12, Education Zone, New Delhi"
+                  aria-label="Map showing Sajj Global School Campus, Action Area IID, Newtown, Kolkata"
                 />
               </div>
             </div>
@@ -97,7 +97,7 @@ export default function Contact() {
             <a href="/admissions" className="gradient-btn px-8 py-3 rounded-xl font-display font-semibold text-white inline-flex items-center gap-2">
               Admissions Page
             </a>
-            <a href="tel:+911123456789" className="gradient-btn px-8 py-3 rounded-xl font-display font-semibold text-white inline-flex items-center gap-2" style={{ background: 'var(--navy-700)', backgroundImage: 'none' }}>
+            <a href="tel:+913340005678" className="gradient-btn px-8 py-3 rounded-xl font-display font-semibold text-white inline-flex items-center gap-2" style={{ background: 'var(--navy-700)', backgroundImage: 'none' }}>
               <Phone size={16} /> Call Admissions
             </a>
           </div>

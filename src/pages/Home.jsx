@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import {
   GraduationCap, Users, Trophy, Star, BookOpen, Calendar,
   Download, Images, Phone, MapPin, ArrowRight, ChevronRight,
+  Music, Flame, Zap, Heart,
 } from 'lucide-react';
 import Button from '@/components/ui/Button.jsx';
 import SectionHeading from '@/components/ui/SectionHeading.jsx';
@@ -16,7 +17,6 @@ import QuickLinkTile from '@/components/QuickLinkTile.jsx';
 import { getLatestNews } from '@/services/newsService.js';
 import { getRecentNotices } from '@/services/noticeService.js';
 import { getPrincipal, getChairman } from '@/services/facultyService.js';
-import { getPreviewImages } from '@/services/galleryService.js';
 
 const fadeUp = { hidden: { opacity: 0, y: 28 }, show: { opacity: 1, y: 0, transition: { duration: 0.55, ease: 'easeOut' } } };
 const stagger = { show: { transition: { staggerChildren: 0.1 } } };
@@ -38,11 +38,68 @@ const QUICK_LINKS = [
 ];
 
 const GALLERY_PREVIEWS = [
-  { src: 'https://picsum.photos/seed/home-gal1/600/450', alt: 'Annual Science Exhibition', wide: true },
-  { src: 'https://picsum.photos/seed/home-gal2/600/450', alt: 'Sports Day' },
-  { src: 'https://picsum.photos/seed/home-gal3/600/450', alt: 'Cultural Harmony Day' },
-  { src: 'https://picsum.photos/seed/home-gal4/600/450', alt: 'Graduation Ceremony', wide: true },
-  { src: 'https://picsum.photos/seed/home-gal5/600/450', alt: 'Community Outreach' },
+  { src: 'https://picsum.photos/seed/home-gal1/600/450', alt: 'Saraswati Puja 2025 — Classical Dance Performance', wide: true },
+  { src: 'https://picsum.photos/seed/home-gal2/600/450', alt: 'Annual Sports Day — Athletics Track' },
+  { src: 'https://picsum.photos/seed/home-gal3/600/450', alt: 'Rabindra Jayanti Cultural Programme' },
+  { src: 'https://picsum.photos/seed/home-gal4/600/450', alt: 'Durga Puja Celebrations 2024', wide: true },
+  { src: 'https://picsum.photos/seed/home-gal5/600/450', alt: 'Annual Science Exhibition' },
+];
+
+const UPCOMING_EVENTS = [
+  {
+    id: 1,
+    title: 'Annual Science Exhibition',
+    day: '15',
+    month: 'Jul',
+    category: 'Academic',
+    categoryIcon: Star,
+    description: 'Student innovations on display — Classes VI–XII. Open to parents and guests from across Kolkata.',
+  },
+  {
+    id: 2,
+    title: 'Annual Sports Day',
+    day: '20',
+    month: 'Jul',
+    category: 'Sports',
+    categoryIcon: Trophy,
+    description: 'Inter-house athletics, march past, and prize distribution at the school grounds. All parents invited.',
+  },
+  {
+    id: 3,
+    title: 'Parent-Teacher Meeting',
+    day: '03',
+    month: 'Aug',
+    category: 'Meeting',
+    categoryIcon: Users,
+    description: 'Term I mid-year PTM for all classes Nursery–XII. Prior registration via school app recommended.',
+  },
+  {
+    id: 4,
+    title: 'Independence Day',
+    day: '15',
+    month: 'Aug',
+    category: 'National',
+    categoryIcon: Flame,
+    description: 'Flag hoisting at 8 AM followed by cultural programme and prize distribution. All families welcome.',
+  },
+  {
+    id: 5,
+    title: 'Annual Prize Distribution',
+    day: '12',
+    month: 'Dec',
+    category: 'Ceremony',
+    categoryIcon: GraduationCap,
+    description: 'Academic, sports, and co-curricular prizes. Graduation ceremony for Class XII.',
+  },
+  {
+    id: 6,
+    title: 'Saraswati Puja 2026',
+    day: 'Feb',
+    month: '2026',
+    category: 'Festival',
+    categoryIcon: Music,
+    description: 'School-wide Saraswati Puja with pushpanjali, Rabindra Nritya, and evening cultural programme.',
+  },
 ];
 
 function Section({ id, children, className = '' }) {
@@ -69,8 +126,8 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Sajj Global School — Excellence in Education</title>
-        <meta name="description" content="Sajj Global School is a premier institution committed to holistic education, academic excellence, and character-building. Admissions open for 2025–26." />
+        <title>Sajj Global School, Kolkata — Excellence in Education</title>
+        <meta name="description" content="Sajj Global School is a premier CBSE institution in Newtown, Kolkata committed to holistic education, academic excellence, and character-building. Admissions open for 2025–26." />
       </Helmet>
 
       {/* ── Hero ── */}
@@ -90,7 +147,7 @@ export default function Home() {
           >
             <motion.span variants={fadeUp} className="inline-flex items-center gap-2 text-brand-cyan text-xs font-display font-semibold tracking-widest uppercase">
               <span className="w-8 h-0.5 bg-brand-cyan inline-block" />
-              Sajj Global Foundation
+              Sajj Global Foundation · Kolkata
             </motion.span>
 
             <motion.h1 variants={fadeUp} className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-white leading-[1.12]">
@@ -99,8 +156,8 @@ export default function Home() {
             </motion.h1>
 
             <motion.p variants={fadeUp} className="text-slate-300 text-lg leading-relaxed max-w-lg">
-              A nurturing, modern learning environment that prepares students not just for examinations,
-              but for life — academically rigorous, culturally rich, and deeply human.
+              A nurturing, modern learning environment in the heart of Newtown, Kolkata — preparing students
+              not just for examinations, but for life. Academically rigorous, culturally rich, and deeply human.
             </motion.p>
 
             <motion.div variants={fadeUp} className="flex flex-wrap gap-4">
@@ -132,8 +189,8 @@ export default function Home() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://picsum.photos/seed/sgs-hero-main/700/520"
-                alt="Students engaged in learning at Sajj Global School"
+                src="https://picsum.photos/seed/sgs-hero-kolkata/700/520"
+                alt="Students engaged in learning at Sajj Global School, Newtown Kolkata"
                 className="w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-navy-900/30 to-transparent" />
@@ -167,8 +224,8 @@ export default function Home() {
           <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
             <SectionHeading
               label="Who We Are"
-              title="A School Built on Excellence and Values"
-              subtitle="Founded in 2006 under the Sajj Global Foundation, Sajj Global School has been a beacon of quality education in the region. We are a CBSE-affiliated institution offering a holistic curriculum from Nursery to Class XII — where academic rigor meets creative freedom and character development."
+              title="A School Built on Excellence and Bengal's Values"
+              subtitle="Founded in 2006 under the Sajj Global Foundation, Sajj Global School has been a beacon of quality education in Newtown, Kolkata. We are a CBSE-affiliated institution offering a holistic curriculum from Nursery to Class XII — where academic rigour meets the rich cultural heritage of West Bengal."
             />
             <div className="mt-8 flex flex-wrap gap-4">
               <Button to="/about" variant="primary" size="md">
@@ -186,9 +243,9 @@ export default function Home() {
           >
             {[
               { title: 'CBSE Curriculum', body: 'Rigorous academics aligned with the latest CBSE guidelines and competitive exam requirements.' },
-              { title: 'Expert Faculty', body: 'Over 120 trained educators, many with postgraduate degrees and over a decade of experience.' },
-              { title: 'Modern Infrastructure', body: 'Smart classrooms, advanced labs, a 60-seat computer lab, library, and sports complex.' },
-              { title: 'Holistic Growth', body: "Sports, arts, debate, music — co-curricular activities for every student's unique strengths." },
+              { title: 'Expert Faculty', body: 'Over 120 trained educators, many with postgraduate degrees and a decade of teaching excellence.' },
+              { title: 'Modern Infrastructure', body: 'Smart classrooms, advanced labs, a 60-seat computer lab, central library, and sports complex.' },
+              { title: 'Cultural Heritage', body: 'Saraswati Puja, Rabindra Jayanti, Durga Puja — we celebrate Bengal\'s rich traditions year-round.' },
             ].map((item) => (
               <div key={item.title} className="bg-brand-light rounded-2xl p-5 border border-brand-border">
                 <div className="h-1 w-8 rounded-full bg-brand-gradient mb-3" />
@@ -242,8 +299,45 @@ export default function Home() {
         </div>
       </Section>
 
+      {/* ── Upcoming Events ── */}
+      <Section className="bg-brand-light" id="events">
+        <div className="flex items-center justify-between mb-10">
+          <SectionHeading label="Academic Year 2024–25" title="Upcoming Events" />
+          <Button to="/academics#calendar" variant="ghost" size="sm" className="flex-shrink-0">
+            Full Calendar <ChevronRight size={14} />
+          </Button>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {UPCOMING_EVENTS.map((evt, i) => (
+            <motion.div
+              key={evt.id}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.07 }}
+              className="bg-white rounded-2xl shadow-card border border-brand-border overflow-hidden flex hover:shadow-card-hover transition-shadow"
+            >
+              {/* Date sidebar */}
+              <div className="w-16 bg-brand-gradient flex flex-col items-center justify-center text-white flex-shrink-0 py-5">
+                <span className="font-display font-bold text-2xl leading-none">{evt.day}</span>
+                <span className="text-xs font-semibold opacity-90 mt-1">{evt.month}</span>
+              </div>
+              {/* Content */}
+              <div className="flex-1 p-4">
+                <span className="inline-flex items-center gap-1 text-xs font-semibold text-navy-700 bg-navy-700/8 px-2 py-0.5 rounded-full">
+                  <evt.categoryIcon size={10} />
+                  {evt.category}
+                </span>
+                <h3 className="font-display font-bold text-navy-900 text-sm mt-2 leading-snug">{evt.title}</h3>
+                <p className="text-xs text-brand-muted mt-1 leading-relaxed">{evt.description}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </Section>
+
       {/* ── Quick Links ── */}
-      <Section className="bg-brand-light">
+      <Section className="bg-white">
         <SectionHeading label="Navigate" title="Quick Links" centered />
         <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
           {QUICK_LINKS.map((ql) => <QuickLinkTile key={ql.label} {...ql} />)}
@@ -251,9 +345,9 @@ export default function Home() {
       </Section>
 
       {/* ── Gallery Preview ── */}
-      <Section className="bg-white">
+      <Section className="bg-brand-light">
         <div className="flex items-center justify-between mb-10">
-          <SectionHeading label="Memories" title="Life at SGS" />
+          <SectionHeading label="Memories" title="Life at SGS Kolkata" />
           <Button to="/gallery" variant="outline" size="sm">
             Full Gallery <Images size={14} />
           </Button>
@@ -294,11 +388,11 @@ export default function Home() {
                 Give Your Child the SGS Advantage
               </p>
               <p className="text-slate-300 text-sm sm:text-base mt-2 max-w-lg leading-relaxed">
-                Admissions for 2025–26 are open. Join a community of learners, thinkers, and achievers.
+                Admissions for 2025–26 are open. Join a community of learners, thinkers, and achievers in Newtown, Kolkata.
               </p>
               <div className="flex items-center gap-3 mt-3 text-sm text-slate-400">
                 <MapPin size={14} className="text-brand-cyan" />
-                <span>Sector 12, Education Zone, New Delhi</span>
+                <span>Action Area IID, Newtown, Rajarhat, Kolkata – 700 156, West Bengal</span>
               </div>
             </div>
             <div className="relative flex flex-col sm:flex-row gap-3 flex-shrink-0">
